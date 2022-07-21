@@ -30,12 +30,13 @@ Moves amount tokens from sender to recipient using the allowance mechanism. amou
 Returns a boolean value indicating whether the operation succeeded.
 Emits a Transfer event.
 
-7) Transfer(address from, address to, uint256 value)
+**Description of the events -**
+1) Transfer(address from, address to, uint256 value)
 event
 Emitted when value tokens are moved from one account (from) to another (to).
 Note that value may be zero.
 
-8) Approval(address owner, address spender, uint256 value)
+2) Approval(address owner, address spender, uint256 value)
 event
 Emitted when the allowance of a spender for an owner is set by a call to approve. value is the new allowance.
 
