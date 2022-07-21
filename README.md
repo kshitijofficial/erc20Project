@@ -1,4 +1,10 @@
-﻿# erc20Project
+﻿# ERC20Project
+This is one of the many projects available on [Codedamn](https://codedamn.com/projects) to reinforce your learning by building. If you want to become a Blockchain Developer and learn by practicing, feel free to attempt this challenge. Feel free to check out the codedamn [Web3 Learning Path](https://codedamn.com/learning-paths/web3) to learn more about how to become an awesome Blockchain Developer.
+
+## Instructions
+Use the ERC20 interface given in the `ERC20.sol` and create your own ERC20 Token. 
+
+**Description of the functions** - 
 1) totalSupply() → uint256
 Returns the amount of tokens in existence.
 
@@ -32,3 +38,5 @@ Note that value may be zero.
 8) Approval(address owner, address spender, uint256 value)
 event
 Emitted when the allowance of a spender for an owner is set by a call to approve. value is the new allowance.
+
+**Note -** You have to write the migration script also in the migration file.
